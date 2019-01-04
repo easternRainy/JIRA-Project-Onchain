@@ -8,6 +8,7 @@
 5. 程序会尝试从工作人员logwork的内容中提取链接，并登陆链接读取工作人员在github上增删记录
 6. 如果5成功，则输出文件为 startdayToenddayPersonalStatistics_URL_SUCCESS.csv
 7. 如果5失败，则输出文件为 startdayToenddayPersonalStatistics_URL_FAILURE.csv
+8. 如果使用者未选择Log Work这个Field，则输出文件为 startdayToenddayPersonalStatistics.csv
 
 程序的数据结构：
 worklogTest.csv会存入df变量中，作为全局变量，任何函数都可以访问，但不建议修改
